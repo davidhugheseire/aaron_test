@@ -18,6 +18,7 @@ view: offaly_weather {
   }
 
   dimension: ground_min_temp {
+    label: "hello"
     type: number
     sql: ${TABLE}.ground_min_temp ;;
   }
